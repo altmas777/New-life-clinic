@@ -188,6 +188,13 @@ body {
     font-size: 1.8rem;
 }
 
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
 .brand-text {
     background: linear-gradient(90deg, var(--primary-blue), var(--primary-green));
     -webkit-background-clip: text;
@@ -682,6 +689,13 @@ footer {
 
 .footer-logo i {
     color: var(--primary-green);
+}
+
+.footer-logo-img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 .footer-links {
